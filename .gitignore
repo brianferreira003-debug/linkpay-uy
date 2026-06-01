@@ -9,3 +9,14 @@ venv/
 *.egg-info/
 dist/
 build/
+
+# Certificates and keys (NEVER commit)
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Backups and dumps (NEVER commit)
+*.sql.gz
+*.dump
+*.bak

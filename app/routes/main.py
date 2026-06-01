@@ -63,6 +63,7 @@ def public_page(username):
     
     # Trackear visita
     ip = request.remote_addr
+    # CSIO-OK: SHA-256 for IP hash (analytics tracking), NOT password
     ip_hash = hashlib.sha256(ip.encode()).hexdigest()[:16] if ip else None
     pv = PageView(
         username=username,

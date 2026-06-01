@@ -34,6 +34,7 @@ _project_slug = None
 
 def _hash_ip(ip):
     if not ip: return None
+    # CSIO-OK: SHA-256 for IP anonymization (analytics), NOT password hashing
     return hashlib.sha256(ip.encode()).hexdigest()[:16]
 
 def _flush_buffer():
