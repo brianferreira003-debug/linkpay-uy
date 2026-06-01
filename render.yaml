@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: linkpay-uy
+    env: python
+    region: oregon
+    buildCommand: pip install -r requirements.txt && pip install -e ./zoo_analytics_ext
+    startCommand: flask --app run_server db upgrade && gunicorn run_server:app --bind 0.0.0.0:$PORT --workers 2 --timeout 120
+    healthCheckPath: /admin/api/health
+    envVars:
+      - key: PYTHON_VERSION
+        value: "3.11.0"
+      - key: SECRET_KEY
+        generateValue: true
+      - key: MP_PUBLIC_KEY
+        sync: false
+      - key: MP_ACCESS_TOKEN
+        sync: false
