@@ -1,0 +1,242 @@
+{
+  "communities": {
+    "0": [
+      "app_init",
+      "app_init_load_user",
+      "app_init_rationale_1",
+      "models_init",
+      "models_init_clickevent",
+      "models_init_link",
+      "models_init_pageview",
+      "models_init_payment",
+      "models_init_rationale_1",
+      "routes_api",
+      "routes_api_create_payment",
+      "routes_api_mp_webhook",
+      "routes_api_rationale_1",
+      "routes_api_rationale_115",
+      "routes_api_rationale_43",
+      "routes_api_track_click",
+      "routes_dashboard_add_link",
+      "routes_main",
+      "routes_main_index",
+      "routes_main_public_page",
+      "routes_main_rationale_1"
+    ],
+    "1": [
+      "zoo_analytics_dashboard",
+      "zoo_analytics_dashboard_api_health",
+      "zoo_analytics_dashboard_rationale_1",
+      "zoo_analytics_init",
+      "zoo_analytics_init_add_buffer",
+      "zoo_analytics_init_flush_buffer",
+      "zoo_analytics_init_hash_ip",
+      "zoo_analytics_init_periodic_flush",
+      "zoo_analytics_init_rationale_1",
+      "zoo_analytics_init_track",
+      "zoo_analytics_init_track_event",
+      "zoo_analytics_init_track_page_view"
+    ],
+    "2": [
+      "zoo_analytics_ext_init",
+      "zoo_analytics_ext_init_add_buffer",
+      "zoo_analytics_ext_init_analytics",
+      "zoo_analytics_ext_init_analytics_init",
+      "zoo_analytics_ext_init_analytics_init_app",
+      "zoo_analytics_ext_init_flush_buffer",
+      "zoo_analytics_ext_init_hash_ip",
+      "zoo_analytics_ext_init_periodic_flush",
+      "zoo_analytics_ext_init_rationale_1",
+      "zoo_analytics_ext_init_track",
+      "zoo_analytics_ext_init_track_event",
+      "zoo_analytics_ext_init_track_page_view"
+    ],
+    "3": [
+      "models_init_user",
+      "models_init_user_active_links",
+      "models_init_user_check_password",
+      "models_init_user_page_url",
+      "models_init_user_set_password",
+      "routes_auth",
+      "routes_auth_login",
+      "routes_auth_logout",
+      "routes_auth_rationale_1",
+      "routes_auth_register",
+      "usermixin"
+    ],
+    "4": [
+      "routes_dashboard",
+      "routes_dashboard_delete_link",
+      "routes_dashboard_index",
+      "routes_dashboard_pagos",
+      "routes_dashboard_rationale_1",
+      "routes_dashboard_rationale_60",
+      "routes_dashboard_render_page",
+      "routes_dashboard_settings",
+      "routes_dashboard_stats",
+      "routes_dashboard_update_settings"
+    ],
+    "5": [
+      "render_linkpay_db",
+      "render_linkpay_uy",
+      "render_zoo_analytics_ext",
+      "requirements_flask",
+      "requirements_flask_login",
+      "requirements_flask_migrate",
+      "requirements_flask_sqlalchemy",
+      "requirements_gunicorn"
+    ],
+    "6": [
+      "app_init_create_app",
+      "run_server",
+      "zoo_analytics_init_analytics",
+      "zoo_analytics_init_analytics_init",
+      "zoo_analytics_init_analytics_init_app"
+    ],
+    "7": [
+      "zoo_analytics_ext_dashboard",
+      "zoo_analytics_ext_dashboard_api_health",
+      "zoo_analytics_ext_dashboard_dashboard",
+      "zoo_analytics_ext_dashboard_rationale_1"
+    ],
+    "8": [
+      "requirements_psycopg2_binary"
+    ],
+    "9": [
+      "requirements_werkzeug"
+    ],
+    "10": [
+      "zoo_analytics_ext_setup"
+    ],
+    "11": [
+      "zoo_analytics_setup"
+    ]
+  },
+  "cohesion": {
+    "0": 0.15714285714285714,
+    "1": 0.24242424242424243,
+    "2": 0.25757575757575757,
+    "3": 0.2,
+    "4": 0.28888888888888886,
+    "5": 0.2857142857142857,
+    "6": 0.5,
+    "7": 0.5,
+    "8": 1.0,
+    "9": 1.0,
+    "10": 1.0,
+    "11": 1.0
+  },
+  "gods": [
+    {
+      "id": "models_init_user",
+      "label": "User",
+      "degree": 10
+    },
+    {
+      "id": "zoo_analytics_init_track_event",
+      "label": "track_event()",
+      "degree": 8
+    },
+    {
+      "id": "models_init_link",
+      "label": "Link",
+      "degree": 6
+    },
+    {
+      "id": "models_init_clickevent",
+      "label": "ClickEvent",
+      "degree": 6
+    },
+    {
+      "id": "routes_dashboard_render_page",
+      "label": "render_page()",
+      "degree": 6
+    },
+    {
+      "id": "models_init_payment",
+      "label": "Payment",
+      "degree": 5
+    },
+    {
+      "id": "models_init_pageview",
+      "label": "PageView",
+      "degree": 5
+    },
+    {
+      "id": "zoo_analytics_init_analytics",
+      "label": "Analytics",
+      "degree": 5
+    },
+    {
+      "id": "render_linkpay_uy",
+      "label": "linkpay-uy",
+      "degree": 5
+    },
+    {
+      "id": "zoo_analytics_ext_init_track_event",
+      "label": "track_event()",
+      "degree": 4
+    }
+  ],
+  "surprises": [
+    {
+      "source": "linkpay-uy",
+      "target": "Flask-Migrate",
+      "source_files": [
+        "render.yaml",
+        "requirements.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories; peripheral node `Flask-Migrate` unexpectedly reaches hub `linkpay-uy`"
+    },
+    {
+      "source": "linkpay-uy",
+      "target": "Flask",
+      "source_files": [
+        "render.yaml",
+        "requirements.txt"
+      ],
+      "confidence": "INFERRED",
+      "relation": "references",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "linkpay-uy",
+      "target": "gunicorn",
+      "source_files": [
+        "render.yaml",
+        "requirements.txt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories; peripheral node `gunicorn` unexpectedly reaches hub `linkpay-uy`"
+    },
+    {
+      "source": "create_app()",
+      "target": "Analytics",
+      "source_files": [
+        "app/__init__.py",
+        "zoo_analytics/__init__.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "register()",
+      "target": "User",
+      "source_files": [
+        "app/routes/auth.py",
+        "app/models/__init__.py"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "calls",
+      "why": "peripheral node `register()` unexpectedly reaches hub `User`"
+    }
+  ],
+  "tokens": {
+    "input": 622,
+    "output": 1005
+  }
+}

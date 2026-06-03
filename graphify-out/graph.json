@@ -1,0 +1,2147 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "app/__init__.py",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "__init__.py",
+      "id": "app_init"
+    },
+    {
+      "label": "load_user()",
+      "file_type": "code",
+      "source_file": "app/__init__.py",
+      "source_location": "L19",
+      "community": 0,
+      "norm_label": "load_user()",
+      "id": "app_init_load_user"
+    },
+    {
+      "label": "create_app()",
+      "file_type": "code",
+      "source_file": "app/__init__.py",
+      "source_location": "L23",
+      "community": 6,
+      "norm_label": "create_app()",
+      "id": "app_init_create_app"
+    },
+    {
+      "label": "LinkPay Uruguay - MVP Link-in-bio con pagos MercadoPago integrados. Metricas int",
+      "file_type": "rationale",
+      "source_file": "app/__init__.py",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "linkpay uruguay - mvp link-in-bio con pagos mercadopago integrados. metricas int",
+      "id": "app_init_rationale_1"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "__init__.py",
+      "id": "models_init"
+    },
+    {
+      "label": "User",
+      "file_type": "code",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L10",
+      "community": 3,
+      "norm_label": "user",
+      "id": "models_init_user"
+    },
+    {
+      "label": "UserMixin",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "community": 3,
+      "norm_label": "usermixin",
+      "id": "usermixin"
+    },
+    {
+      "label": ".set_password()",
+      "file_type": "code",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L29",
+      "community": 3,
+      "norm_label": ".set_password()",
+      "id": "models_init_user_set_password"
+    },
+    {
+      "label": ".check_password()",
+      "file_type": "code",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L32",
+      "community": 3,
+      "norm_label": ".check_password()",
+      "id": "models_init_user_check_password"
+    },
+    {
+      "label": ".page_url()",
+      "file_type": "code",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L36",
+      "community": 3,
+      "norm_label": ".page_url()",
+      "id": "models_init_user_page_url"
+    },
+    {
+      "label": ".active_links()",
+      "file_type": "code",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L40",
+      "community": 3,
+      "norm_label": ".active_links()",
+      "id": "models_init_user_active_links"
+    },
+    {
+      "label": "Link",
+      "file_type": "code",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L44",
+      "community": 0,
+      "norm_label": "link",
+      "id": "models_init_link"
+    },
+    {
+      "label": "Payment",
+      "file_type": "code",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L59",
+      "community": 0,
+      "norm_label": "payment",
+      "id": "models_init_payment"
+    },
+    {
+      "label": "PageView",
+      "file_type": "code",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L76",
+      "community": 0,
+      "norm_label": "pageview",
+      "id": "models_init_pageview"
+    },
+    {
+      "label": "ClickEvent",
+      "file_type": "code",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L87",
+      "community": 0,
+      "norm_label": "clickevent",
+      "id": "models_init_clickevent"
+    },
+    {
+      "label": "LinkPay - Modelos de Datos",
+      "file_type": "rationale",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "linkpay - modelos de datos",
+      "id": "models_init_rationale_1"
+    },
+    {
+      "label": "api.py",
+      "file_type": "code",
+      "source_file": "app/routes/api.py",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "api.py",
+      "id": "routes_api"
+    },
+    {
+      "label": "track_click()",
+      "file_type": "code",
+      "source_file": "app/routes/api.py",
+      "source_location": "L15",
+      "community": 0,
+      "norm_label": "track_click()",
+      "id": "routes_api_track_click"
+    },
+    {
+      "label": "create_payment()",
+      "file_type": "code",
+      "source_file": "app/routes/api.py",
+      "source_location": "L42",
+      "community": 0,
+      "norm_label": "create_payment()",
+      "id": "routes_api_create_payment"
+    },
+    {
+      "label": "mp_webhook()",
+      "file_type": "code",
+      "source_file": "app/routes/api.py",
+      "source_location": "L114",
+      "community": 0,
+      "norm_label": "mp_webhook()",
+      "id": "routes_api_mp_webhook"
+    },
+    {
+      "label": "LinkPay - API (pagos MercadoPago, clicks, etc.)",
+      "file_type": "rationale",
+      "source_file": "app/routes/api.py",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "linkpay - api (pagos mercadopago, clicks, etc.)",
+      "id": "routes_api_rationale_1"
+    },
+    {
+      "label": "Crea una preferencia de pago MercadoPago.",
+      "file_type": "rationale",
+      "source_file": "app/routes/api.py",
+      "source_location": "L43",
+      "community": 0,
+      "norm_label": "crea una preferencia de pago mercadopago.",
+      "id": "routes_api_rationale_43"
+    },
+    {
+      "label": "Webhook de MercadoPago para confirmar pagos.",
+      "file_type": "rationale",
+      "source_file": "app/routes/api.py",
+      "source_location": "L115",
+      "community": 0,
+      "norm_label": "webhook de mercadopago para confirmar pagos.",
+      "id": "routes_api_rationale_115"
+    },
+    {
+      "label": "auth.py",
+      "file_type": "code",
+      "source_file": "app/routes/auth.py",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "auth.py",
+      "id": "routes_auth"
+    },
+    {
+      "label": "register()",
+      "file_type": "code",
+      "source_file": "app/routes/auth.py",
+      "source_location": "L85",
+      "community": 3,
+      "norm_label": "register()",
+      "id": "routes_auth_register"
+    },
+    {
+      "label": "login()",
+      "file_type": "code",
+      "source_file": "app/routes/auth.py",
+      "source_location": "L118",
+      "community": 3,
+      "norm_label": "login()",
+      "id": "routes_auth_login"
+    },
+    {
+      "label": "logout()",
+      "file_type": "code",
+      "source_file": "app/routes/auth.py",
+      "source_location": "L139",
+      "community": 3,
+      "norm_label": "logout()",
+      "id": "routes_auth_logout"
+    },
+    {
+      "label": "LinkPay - Autenticacion (registro, login, logout)",
+      "file_type": "rationale",
+      "source_file": "app/routes/auth.py",
+      "source_location": "L1",
+      "community": 3,
+      "norm_label": "linkpay - autenticacion (registro, login, logout)",
+      "id": "routes_auth_rationale_1"
+    },
+    {
+      "label": "dashboard.py",
+      "file_type": "code",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "dashboard.py",
+      "id": "routes_dashboard"
+    },
+    {
+      "label": "render_page()",
+      "file_type": "code",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L59",
+      "community": 4,
+      "norm_label": "render_page()",
+      "id": "routes_dashboard_render_page"
+    },
+    {
+      "label": "index()",
+      "file_type": "code",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L100",
+      "community": 4,
+      "norm_label": "index()",
+      "id": "routes_dashboard_index"
+    },
+    {
+      "label": "add_link()",
+      "file_type": "code",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L134",
+      "community": 0,
+      "norm_label": "add_link()",
+      "id": "routes_dashboard_add_link"
+    },
+    {
+      "label": "delete_link()",
+      "file_type": "code",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L149",
+      "community": 4,
+      "norm_label": "delete_link()",
+      "id": "routes_dashboard_delete_link"
+    },
+    {
+      "label": "stats()",
+      "file_type": "code",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L158",
+      "community": 4,
+      "norm_label": "stats()",
+      "id": "routes_dashboard_stats"
+    },
+    {
+      "label": "settings()",
+      "file_type": "code",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L211",
+      "community": 4,
+      "norm_label": "settings()",
+      "id": "routes_dashboard_settings"
+    },
+    {
+      "label": "update_settings()",
+      "file_type": "code",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L233",
+      "community": 4,
+      "norm_label": "update_settings()",
+      "id": "routes_dashboard_update_settings"
+    },
+    {
+      "label": "pagos()",
+      "file_type": "code",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L244",
+      "community": 4,
+      "norm_label": "pagos()",
+      "id": "routes_dashboard_pagos"
+    },
+    {
+      "label": "LinkPay - Dashboard del usuario (gestion de links, ver estadisticas) CSS inline,",
+      "file_type": "rationale",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "linkpay - dashboard del usuario (gestion de links, ver estadisticas) css inline,",
+      "id": "routes_dashboard_rationale_1"
+    },
+    {
+      "label": "Renderiza una pagina del dashboard con el layout base.",
+      "file_type": "rationale",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L60",
+      "community": 4,
+      "norm_label": "renderiza una pagina del dashboard con el layout base.",
+      "id": "routes_dashboard_rationale_60"
+    },
+    {
+      "label": "main.py",
+      "file_type": "code",
+      "source_file": "app/routes/main.py",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "main.py",
+      "id": "routes_main"
+    },
+    {
+      "label": "index()",
+      "file_type": "code",
+      "source_file": "app/routes/main.py",
+      "source_location": "L56",
+      "community": 0,
+      "norm_label": "index()",
+      "id": "routes_main_index"
+    },
+    {
+      "label": "public_page()",
+      "file_type": "code",
+      "source_file": "app/routes/main.py",
+      "source_location": "L60",
+      "community": 0,
+      "norm_label": "public_page()",
+      "id": "routes_main_public_page"
+    },
+    {
+      "label": "LinkPay - Routes principales (pagina publica)",
+      "file_type": "rationale",
+      "source_file": "app/routes/main.py",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "linkpay - routes principales (pagina publica)",
+      "id": "routes_main_rationale_1"
+    },
+    {
+      "label": "run_server.py",
+      "file_type": "code",
+      "source_file": "run_server.py",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "run_server.py",
+      "id": "run_server"
+    },
+    {
+      "label": "zoo-analytics-setup.py",
+      "file_type": "code",
+      "source_file": "zoo-analytics-setup.py",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "zoo-analytics-setup.py",
+      "id": "zoo_analytics_setup"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "__init__.py",
+      "id": "zoo_analytics_init"
+    },
+    {
+      "label": "_hash_ip()",
+      "file_type": "code",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L35",
+      "community": 1,
+      "norm_label": "_hash_ip()",
+      "id": "zoo_analytics_init_hash_ip"
+    },
+    {
+      "label": "_flush_buffer()",
+      "file_type": "code",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L40",
+      "community": 1,
+      "norm_label": "_flush_buffer()",
+      "id": "zoo_analytics_init_flush_buffer"
+    },
+    {
+      "label": "_periodic_flush()",
+      "file_type": "code",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L57",
+      "community": 1,
+      "norm_label": "_periodic_flush()",
+      "id": "zoo_analytics_init_periodic_flush"
+    },
+    {
+      "label": "_add_buffer()",
+      "file_type": "code",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L65",
+      "community": 1,
+      "norm_label": "_add_buffer()",
+      "id": "zoo_analytics_init_add_buffer"
+    },
+    {
+      "label": "track_event()",
+      "file_type": "code",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L71",
+      "community": 1,
+      "norm_label": "track_event()",
+      "id": "zoo_analytics_init_track_event"
+    },
+    {
+      "label": "track_page_view()",
+      "file_type": "code",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L78",
+      "community": 1,
+      "norm_label": "track_page_view()",
+      "id": "zoo_analytics_init_track_page_view"
+    },
+    {
+      "label": "track()",
+      "file_type": "code",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L82",
+      "community": 1,
+      "norm_label": "track()",
+      "id": "zoo_analytics_init_track"
+    },
+    {
+      "label": "Analytics",
+      "file_type": "code",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L94",
+      "community": 6,
+      "norm_label": "analytics",
+      "id": "zoo_analytics_init_analytics"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L95",
+      "community": 6,
+      "norm_label": ".__init__()",
+      "id": "zoo_analytics_init_analytics_init"
+    },
+    {
+      "label": ".init_app()",
+      "file_type": "code",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L100",
+      "community": 6,
+      "norm_label": ".init_app()",
+      "id": "zoo_analytics_init_analytics_init_app"
+    },
+    {
+      "label": "ZOO Analytics - Modulo simple de metricas para Flask. Cada proyecto define sus p",
+      "file_type": "rationale",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "zoo analytics - modulo simple de metricas para flask. cada proyecto define sus p",
+      "id": "zoo_analytics_init_rationale_1"
+    },
+    {
+      "label": "dashboard.py",
+      "file_type": "code",
+      "source_file": "zoo_analytics/dashboard.py",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "dashboard.py",
+      "id": "zoo_analytics_dashboard"
+    },
+    {
+      "label": "api_health()",
+      "file_type": "code",
+      "source_file": "zoo_analytics/dashboard.py",
+      "source_location": "L34",
+      "community": 1,
+      "norm_label": "api_health()",
+      "id": "zoo_analytics_dashboard_api_health"
+    },
+    {
+      "label": "ZOO Analytics - Dashboard routes",
+      "file_type": "rationale",
+      "source_file": "zoo_analytics/dashboard.py",
+      "source_location": "L1",
+      "community": 1,
+      "norm_label": "zoo analytics - dashboard routes",
+      "id": "zoo_analytics_dashboard_rationale_1"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "__init__.py",
+      "id": "zoo_analytics_ext_init"
+    },
+    {
+      "label": "_hash_ip()",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L35",
+      "community": 2,
+      "norm_label": "_hash_ip()",
+      "id": "zoo_analytics_ext_init_hash_ip"
+    },
+    {
+      "label": "_flush_buffer()",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L40",
+      "community": 2,
+      "norm_label": "_flush_buffer()",
+      "id": "zoo_analytics_ext_init_flush_buffer"
+    },
+    {
+      "label": "_periodic_flush()",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L57",
+      "community": 2,
+      "norm_label": "_periodic_flush()",
+      "id": "zoo_analytics_ext_init_periodic_flush"
+    },
+    {
+      "label": "_add_buffer()",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L65",
+      "community": 2,
+      "norm_label": "_add_buffer()",
+      "id": "zoo_analytics_ext_init_add_buffer"
+    },
+    {
+      "label": "track_event()",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L71",
+      "community": 2,
+      "norm_label": "track_event()",
+      "id": "zoo_analytics_ext_init_track_event"
+    },
+    {
+      "label": "track_page_view()",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L78",
+      "community": 2,
+      "norm_label": "track_page_view()",
+      "id": "zoo_analytics_ext_init_track_page_view"
+    },
+    {
+      "label": "track()",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L82",
+      "community": 2,
+      "norm_label": "track()",
+      "id": "zoo_analytics_ext_init_track"
+    },
+    {
+      "label": "Analytics",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L94",
+      "community": 2,
+      "norm_label": "analytics",
+      "id": "zoo_analytics_ext_init_analytics"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L95",
+      "community": 2,
+      "norm_label": ".__init__()",
+      "id": "zoo_analytics_ext_init_analytics_init"
+    },
+    {
+      "label": ".init_app()",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L100",
+      "community": 2,
+      "norm_label": ".init_app()",
+      "id": "zoo_analytics_ext_init_analytics_init_app"
+    },
+    {
+      "label": "ZOO Analytics - Modulo simple de metricas para Flask. Cada proyecto define sus p",
+      "file_type": "rationale",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L1",
+      "community": 2,
+      "norm_label": "zoo analytics - modulo simple de metricas para flask. cada proyecto define sus p",
+      "id": "zoo_analytics_ext_init_rationale_1"
+    },
+    {
+      "label": "dashboard.py",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/dashboard.py",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "dashboard.py",
+      "id": "zoo_analytics_ext_dashboard"
+    },
+    {
+      "label": "api_health()",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/dashboard.py",
+      "source_location": "L34",
+      "community": 7,
+      "norm_label": "api_health()",
+      "id": "zoo_analytics_ext_dashboard_api_health"
+    },
+    {
+      "label": "dashboard()",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/dashboard.py",
+      "source_location": "L43",
+      "community": 7,
+      "norm_label": "dashboard()",
+      "id": "zoo_analytics_ext_dashboard_dashboard"
+    },
+    {
+      "label": "ZOO Analytics - Dashboard routes",
+      "file_type": "rationale",
+      "source_file": "zoo_analytics_ext/dashboard.py",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "zoo analytics - dashboard routes",
+      "id": "zoo_analytics_ext_dashboard_rationale_1"
+    },
+    {
+      "label": "setup.py",
+      "file_type": "code",
+      "source_file": "zoo_analytics_ext/setup.py",
+      "source_location": "L1",
+      "community": 10,
+      "norm_label": "setup.py",
+      "id": "zoo_analytics_ext_setup"
+    },
+    {
+      "label": "linkpay-uy",
+      "file_type": "code",
+      "source_file": "render.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "linkpay-uy",
+      "id": "render_linkpay_uy"
+    },
+    {
+      "label": "linkpay-db",
+      "file_type": "code",
+      "source_file": "render.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "linkpay-db",
+      "id": "render_linkpay_db"
+    },
+    {
+      "label": "zoo_analytics_ext",
+      "file_type": "code",
+      "source_file": "render.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "zoo_analytics_ext",
+      "id": "render_zoo_analytics_ext"
+    },
+    {
+      "label": "Flask",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "flask",
+      "id": "requirements_flask"
+    },
+    {
+      "label": "Flask-Login",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "flask-login",
+      "id": "requirements_flask_login"
+    },
+    {
+      "label": "Flask-Migrate",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "flask-migrate",
+      "id": "requirements_flask_migrate"
+    },
+    {
+      "label": "Flask-SQLAlchemy",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "flask-sqlalchemy",
+      "id": "requirements_flask_sqlalchemy"
+    },
+    {
+      "label": "gunicorn",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 5,
+      "norm_label": "gunicorn",
+      "id": "requirements_gunicorn"
+    },
+    {
+      "label": "Werkzeug",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 9,
+      "norm_label": "werkzeug",
+      "id": "requirements_werkzeug"
+    },
+    {
+      "label": "psycopg2-binary",
+      "file_type": "code",
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 8,
+      "norm_label": "psycopg2-binary",
+      "id": "requirements_psycopg2_binary"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "app_init_create_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "app_init_load_user"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "models_init"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "models_init_clickevent"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "models_init_link"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "models_init_pageview"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L64",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "models_init_payment"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "models_init_user"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L55",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "routes_api"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "routes_auth"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L54",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "routes_dashboard"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L52",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "routes_main"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "zoo_analytics_init"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init",
+      "target": "zoo_analytics_init_analytics"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init_rationale_1",
+      "target": "app_init"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/__init__.py",
+      "source_location": "L49",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "app_init_create_app",
+      "target": "zoo_analytics_init_analytics"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "run_server.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "run_server",
+      "target": "app_init_create_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L87",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_init",
+      "target": "models_init_clickevent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_init",
+      "target": "models_init_link"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_init",
+      "target": "models_init_pageview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_init",
+      "target": "models_init_payment"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_init",
+      "target": "models_init_user"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_init_rationale_1",
+      "target": "models_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_init_user",
+      "target": "models_init_user_active_links"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L32",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_init_user",
+      "target": "models_init_user_check_password"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L36",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_init_user",
+      "target": "models_init_user_page_url"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L29",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_init_user",
+      "target": "models_init_user_set_password"
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "app/models/__init__.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "models_init_user",
+      "target": "usermixin"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/auth.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_auth",
+      "target": "models_init_user"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/routes/auth.py",
+      "source_location": "L102",
+      "weight": 1.0,
+      "source": "routes_auth_register",
+      "target": "models_init_user"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/main.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_main",
+      "target": "models_init_user"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/api.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_api",
+      "target": "models_init_link"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "models_init_link"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "routes_dashboard_add_link",
+      "target": "models_init_link"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/main.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_main",
+      "target": "models_init_link"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/api.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_api",
+      "target": "models_init_payment"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/routes/api.py",
+      "source_location": "L89",
+      "weight": 1.0,
+      "source": "routes_api_create_payment",
+      "target": "models_init_payment"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "models_init_payment"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "models_init_pageview"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/main.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_main",
+      "target": "models_init_pageview"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/routes/main.py",
+      "source_location": "L68",
+      "weight": 1.0,
+      "source": "routes_main_public_page",
+      "target": "models_init_pageview"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/api.py",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_api",
+      "target": "models_init_clickevent"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "app/routes/api.py",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "routes_api_track_click",
+      "target": "models_init_clickevent"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "models_init_clickevent"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/main.py",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_main",
+      "target": "models_init_clickevent"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/api.py",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_api",
+      "target": "routes_api_create_payment"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/api.py",
+      "source_location": "L114",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_api",
+      "target": "routes_api_mp_webhook"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/api.py",
+      "source_location": "L15",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_api",
+      "target": "routes_api_track_click"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/api.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_api",
+      "target": "zoo_analytics_init_track_event"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/api.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_api_rationale_1",
+      "target": "routes_api"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/api.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_api_rationale_43",
+      "target": "routes_api_create_payment"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/api.py",
+      "source_location": "L115",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_api_rationale_115",
+      "target": "routes_api_mp_webhook"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/auth.py",
+      "source_location": "L118",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_auth",
+      "target": "routes_auth_login"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/auth.py",
+      "source_location": "L139",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_auth",
+      "target": "routes_auth_logout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/auth.py",
+      "source_location": "L85",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_auth",
+      "target": "routes_auth_register"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/auth.py",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_auth",
+      "target": "zoo_analytics_init_track_event"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/auth.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_auth_rationale_1",
+      "target": "routes_auth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L134",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "routes_dashboard_add_link"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L149",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "routes_dashboard_delete_link"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "routes_dashboard_index"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L244",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "routes_dashboard_pagos"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L59",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "routes_dashboard_render_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L211",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "routes_dashboard_settings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L158",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "routes_dashboard_stats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L233",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "routes_dashboard_update_settings"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard",
+      "target": "zoo_analytics_init_track_event"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard_rationale_1",
+      "target": "routes_dashboard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/dashboard.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_dashboard",
+      "target": "routes_dashboard"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L130",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard_index",
+      "target": "routes_dashboard_render_page"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L269",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard_pagos",
+      "target": "routes_dashboard_render_page"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard_rationale_60",
+      "target": "routes_dashboard_render_page"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L229",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard_settings",
+      "target": "routes_dashboard_render_page"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/dashboard.py",
+      "source_location": "L207",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_dashboard_stats",
+      "target": "routes_dashboard_render_page"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/main.py",
+      "source_location": "L56",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_main",
+      "target": "routes_main_index"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/main.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_main",
+      "target": "routes_main_public_page"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/main.py",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_main",
+      "target": "zoo_analytics_init_track_event"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "app/routes/main.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "routes_main_rationale_1",
+      "target": "routes_main"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init",
+      "target": "zoo_analytics_dashboard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init",
+      "target": "zoo_analytics_init_add_buffer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init",
+      "target": "zoo_analytics_init_analytics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init",
+      "target": "zoo_analytics_init_flush_buffer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init",
+      "target": "zoo_analytics_init_hash_ip"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init",
+      "target": "zoo_analytics_init_periodic_flush"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init",
+      "target": "zoo_analytics_init_track"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init",
+      "target": "zoo_analytics_init_track_event"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init",
+      "target": "zoo_analytics_init_track_page_view"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init_rationale_1",
+      "target": "zoo_analytics_init"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init_track_event",
+      "target": "zoo_analytics_init_hash_ip"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init_add_buffer",
+      "target": "zoo_analytics_init_flush_buffer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init_periodic_flush",
+      "target": "zoo_analytics_init_flush_buffer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init_track_event",
+      "target": "zoo_analytics_init_add_buffer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init_track_page_view",
+      "target": "zoo_analytics_init_track_event"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init_analytics",
+      "target": "zoo_analytics_init_analytics_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init_analytics",
+      "target": "zoo_analytics_init_analytics_init_app"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/__init__.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_init_analytics_init",
+      "target": "zoo_analytics_init_analytics_init_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/dashboard.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_dashboard",
+      "target": "zoo_analytics_dashboard_api_health"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics/dashboard.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_dashboard_rationale_1",
+      "target": "zoo_analytics_dashboard"
+    },
+    {
+      "relation": "re_exports",
+      "context": "export",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L125",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init",
+      "target": "zoo_analytics_dashboard"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L65",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init",
+      "target": "zoo_analytics_ext_init_add_buffer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L94",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init",
+      "target": "zoo_analytics_ext_init_analytics"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init",
+      "target": "zoo_analytics_ext_init_flush_buffer"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L35",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init",
+      "target": "zoo_analytics_ext_init_hash_ip"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init",
+      "target": "zoo_analytics_ext_init_periodic_flush"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init",
+      "target": "zoo_analytics_ext_init_track"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L71",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init",
+      "target": "zoo_analytics_ext_init_track_event"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L78",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init",
+      "target": "zoo_analytics_ext_init_track_page_view"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init_rationale_1",
+      "target": "zoo_analytics_ext_init"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init_track_event",
+      "target": "zoo_analytics_ext_init_hash_ip"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L69",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init_add_buffer",
+      "target": "zoo_analytics_ext_init_flush_buffer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L60",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init_periodic_flush",
+      "target": "zoo_analytics_ext_init_flush_buffer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init_track_event",
+      "target": "zoo_analytics_ext_init_add_buffer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L80",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init_track_page_view",
+      "target": "zoo_analytics_ext_init_track_event"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init_analytics",
+      "target": "zoo_analytics_ext_init_analytics_init"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L100",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init_analytics",
+      "target": "zoo_analytics_ext_init_analytics_init_app"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/__init__.py",
+      "source_location": "L98",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_init_analytics_init",
+      "target": "zoo_analytics_ext_init_analytics_init_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/dashboard.py",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_dashboard",
+      "target": "zoo_analytics_ext_dashboard_api_health"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/dashboard.py",
+      "source_location": "L43",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_dashboard",
+      "target": "zoo_analytics_ext_dashboard_dashboard"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "zoo_analytics_ext/dashboard.py",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "zoo_analytics_ext_dashboard_rationale_1",
+      "target": "zoo_analytics_ext_dashboard"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "render.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "render_linkpay_uy",
+      "target": "render_linkpay_db"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "render.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "render_linkpay_uy",
+      "target": "render_zoo_analytics_ext"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "render.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "render_linkpay_uy",
+      "target": "requirements_flask"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "render.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "render_linkpay_uy",
+      "target": "requirements_flask_migrate"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "render.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "render_linkpay_uy",
+      "target": "requirements_gunicorn"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_flask_login",
+      "target": "requirements_flask"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_flask_migrate",
+      "target": "requirements_flask"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "requirements.txt",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "requirements_flask_sqlalchemy",
+      "target": "requirements_flask"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "71106797546d95342057ac43834416f6bbb2ec5e"
+}

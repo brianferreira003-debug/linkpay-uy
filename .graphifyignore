@@ -1,0 +1,15 @@
+# Graphify ignore - ZOO
+# No incluir archivos sensibles en el knowledge graph
+
+.env
+*.env
+instance/
+migrations/
+__pycache__/
+*.pyc
+*.db
+*.sqlite
+*.sqlite3
+node_modules/
+.git/
+*.log
