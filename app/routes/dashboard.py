@@ -258,12 +258,42 @@ def pagos():
         content += '<p class="empty">Sin pagos aun</p>'
     content += '</div>'
     
-    # Boton de cobro rapido
+    # Generador de link de pago
     content += '<div class="card"><h3>Generar link de pago</h3>'
-    content += '<form method="POST" action="/api/payment/create" class="add-form">'
-    content += '<input type="number" name="amount" placeholder="Monto UYU" min="1" step="0.01" required>'
-    content += '<input type="text" name="description" placeholder="Descripcion">'
+    content += '<form id="payForm" class="add-form">'
+    content += '<input type="number" id="payAmount" name="amount" placeholder="Monto UYU" min="1" step="0.01" required>'
+    content += '<input type="text" id="payDesc" name="description" placeholder="Descripcion">'
     content += '<button type="submit">Generar link</button>'
-    content += '</form></div>'
+    content += '</form>'
+    content += '<div id="payResult" style="margin-top:12px;display:none">'
+    content += '<p style="font-size:12px;opacity:.6">Link de pago:</p>'
+    content += '<input type="text" id="payLink" readonly style="width:100%;margin-top:4px;cursor:text">'
+    content += '<button type="button" class="btn" style="margin-top:8px" onclick="copyPayLink()">Copiar link</button>'
+    content += '</div></div>'
+    
+    content += """<script>
+document.getElementById('payForm').onsubmit=function(e){
+    e.preventDefault();
+    var amt=document.getElementById('payAmount').value;
+    var desc=document.getElementById('payDesc').value||'Pago via LinkPay';
+    fetch('/api/payment/create',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({amount:parseFloat(amt),description:desc})})
+    .then(function(r){return r.json()})
+    .then(function(d){
+        if(d.ok){
+            document.getElementById('payLink').value=d.payment_url;
+            document.getElementById('payResult').style.display='block';
+        }else{
+            alert('Error: '+(d.error||'desconocido'));
+        }
+    })
+    .catch(function(e){alert('Error de conexion')});
+};
+function copyPayLink(){
+    var el=document.getElementById('payLink');
+    el.select();
+    document.execCommand('copy');
+    alert('Link copiado!');
+}
+</script>"""
     
     return render_page('Pagos', content, 'pagos')
